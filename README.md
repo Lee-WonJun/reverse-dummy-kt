@@ -30,6 +30,6 @@ val myTime = MyTime(
     time = LocalDate.of(2019, 11, 1)
 )
 
-val dummy = reverseDummy(myTime, matcher = customMatcher)
+val dummy = reverseDummy(myTime, "DummyTime", matcher = customMatcher)
 println(dummy) // val DummyTime = reversedummy.ReverseDummyKtTest2.MyTime(time = LocalDate.parse("2019-11-01"))
 ```
